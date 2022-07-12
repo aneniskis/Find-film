@@ -43,7 +43,11 @@ function HeaderCustomer() {
           <div className="logo">FindFilm</div>
           <ul className={active === 0 ? "nav-links" : "nav-links active"}>
             <li>
-              <Link className="link" onClick={() => navigate("/")} to="/">
+              <Link
+                className="link"
+                onClick={() => navigate("/Find-film")}
+                to="/Find-film"
+              >
                 Home
               </Link>
             </li>

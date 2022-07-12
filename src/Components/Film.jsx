@@ -42,7 +42,7 @@ function FIlm({ filmCard }) {
                 </div>
                 <p className="overview">{film.overview}</p>
                 <div className="action">
-                  <button type="button" onClick={() => navigate("/")}>
+                  <button type="button" onClick={() => navigate("/Find-film")}>
                     Back to search
                   </button>
                 </div>

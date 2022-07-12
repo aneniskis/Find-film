@@ -70,7 +70,7 @@ function FilmRow({ filmToWatch, getFilm, setinputValue, inputValue, filmRow }) {
                   <button
                     className="aboutButton"
                     onClick={() => {
-                      navigate("/one/" + item.id);
+                      navigate("/Find-film/one/" + item.id);
                       filmToWatch(item.id);
                     }}
                   >

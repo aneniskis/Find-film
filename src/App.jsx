@@ -47,7 +47,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route
-            path="/Find-film/"
+            path="/Find-film"
             element={
               <FilmRow
                 filmToWatch={filmToWatch}
