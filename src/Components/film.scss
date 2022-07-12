@@ -1,0 +1,107 @@
+.filmCard {
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 300px;
+  width: 660px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  box-shadow: 1px 2px 8px #888888;
+  padding-bottom: 15px;
+  @media (max-width: 700px) {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  .img {
+    @media (max-width: 700px) {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  text-align: left;
+  gap: 10px;
+  margin-top: 20px;
+  padding-right: 8px;
+  .titles {
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+
+    text-align: left;
+  }
+  .lang {
+    font-size: 12px;
+    font-style: italic;
+    span {
+      text-transform: uppercase;
+    }
+  }
+  .star {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    img {
+      width: 25px;
+      height: 25px;
+    }
+    .votes {
+      display: flex;
+      flex-direction: column;
+      font-size: 12px;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      font-weight: 600;
+      i {
+        flex-direction: row;
+        font-weight: 500;
+        font-size: 10px;
+      }
+      span:last-of-type {
+        width: 40px;
+        display: flex;
+        flex-direction: row;
+        color: #a4a4a4;
+        font-size: 10px;
+      }
+    }
+  }
+  .overview {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 1.6em;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  // background-color: black;
+}
+
+.action {
+  width: 100%;
+  text-align: end;
+  margin-top: 50px;
+  button {
+    cursor: pointer;
+    border: 1px solid #252525;
+    padding: 10px 20px;
+    border-radius: 200px;
+    color: #fff;
+    background: #252525;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    transition: 200ms;
+
+    &:hover {
+      background: #fff;
+      color: #252525;
+    }
+  }
+}

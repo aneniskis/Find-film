@@ -1,0 +1,35 @@
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Merriweather Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background: rgb(235, 237, 214);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 237, 214, 1) 100%,
+    rgba(2, 0, 36, 1) 100%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.visitors {
+  position: relative;
+  min-height: 100vh;
+  .pad {
+    padding-bottom: 80px;
+  }
+}
+.createContent {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  @media (max-width: 760px) {
+    grid-template-columns: 1fr;
+  }
+}
