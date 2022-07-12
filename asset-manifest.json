@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Find_film/static/css/main.02c1882d.css",
-    "main.js": "/Find_film/static/js/main.fef5b2fa.js",
-    "static/js/787.c1112931.chunk.js": "/Find_film/static/js/787.c1112931.chunk.js",
-    "index.html": "/Find_film/index.html",
-    "static/media/star.svg": "/Find_film/static/media/star.de82f684d9b78d1adba7723eaae71dab.svg",
-    "main.02c1882d.css.map": "/Find_film/static/css/main.02c1882d.css.map",
-    "main.fef5b2fa.js.map": "/Find_film/static/js/main.fef5b2fa.js.map",
-    "787.c1112931.chunk.js.map": "/Find_film/static/js/787.c1112931.chunk.js.map"
+    "main.css": "/Find-film/static/css/main.02c1882d.css",
+    "main.js": "/Find-film/static/js/main.dd54a922.js",
+    "static/js/787.c1112931.chunk.js": "/Find-film/static/js/787.c1112931.chunk.js",
+    "index.html": "/Find-film/index.html",
+    "static/media/star.svg": "/Find-film/static/media/star.de82f684d9b78d1adba7723eaae71dab.svg",
+    "main.02c1882d.css.map": "/Find-film/static/css/main.02c1882d.css.map",
+    "main.dd54a922.js.map": "/Find-film/static/js/main.dd54a922.js.map",
+    "787.c1112931.chunk.js.map": "/Find-film/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.02c1882d.css",
-    "static/js/main.fef5b2fa.js"
+    "static/js/main.dd54a922.js"
   ]
 }
