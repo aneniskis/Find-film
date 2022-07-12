@@ -1,7 +1,7 @@
 {
   "name": "app",
   "version": "0.1.0",
-  "homepage": "https://aneniskis.github.io/Find_film",
+  "homepage": "https://aneniskis.github.io/Find-film",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
